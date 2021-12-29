@@ -1,6 +1,14 @@
-[
+{
+  "notes": [
     {
-        "title":"Test Title",
-        "text":"Test text"
+      "title": "my notes first",
+      "text": "any text",
+      "id": "1"
+    },
+    {
+      "title": "call my bank to change card",
+      "text": "don't forget call my bank",
+      "id": "1"
     }
-]
+  ]
+}
