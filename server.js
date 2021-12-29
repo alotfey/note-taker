@@ -3,6 +3,9 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 
+//port config
+const PORT = process.env.PORT || 3001;
+
 const notes = require('./db/db.json')
 
 // express app
@@ -55,6 +58,7 @@ app.post('/api/notes', (req, res) => {
 
 // server port 3001
 
-app.listen(3001, () => {
-    console.log('Web server start on port 3001');
-})
+app.listen(PORT, () => {
+    console.log(`API server now on port ${PORT}!`);
+  });
+  
