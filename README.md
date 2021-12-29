@@ -29,4 +29,4 @@ Javascript
 
 ## screenshot
 
-![screenshot](https://courses.bootcampspot.com/courses/1062/files/1220538/preview)
+![screenshot](./img/11-express-homework-demo-01.png?raw=true "screenshot")
